@@ -1,5 +1,5 @@
-/* Reset & Basics */
-* {
+
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -62,7 +62,7 @@ header {
   color: #d4edda;
 }
 
-/* Hamburger Menu (mobile) */
+
 .menu-toggle {
   display: none;
   flex-direction: column;
@@ -77,7 +77,7 @@ header {
   border-radius: 2px;
 }
 
-/* Hero Section */
+
 .hero {
   position: relative;
   height: 80vh;
@@ -135,7 +135,7 @@ header {
   background-color: #2e6f2e;
 }
 
-/* Solutions Section */
+
 .solutions {
   display: flex;
   gap: 30px;
@@ -174,7 +174,7 @@ header {
   transform: translateY(-10px);
 }
 
-/* Statistics Section */
+
 .statistics {
   display: flex;
   justify-content: space-around;
@@ -196,7 +196,7 @@ header {
   font-size: 1rem;
 }
 
-/* About Section */
+
 .about {
   background-color: white;
   padding: 60px 20px;
@@ -219,7 +219,7 @@ header {
   margin: 0 auto 30px;
 }
 
-/* Contact Section */
+
 .contact {
   background-color: #d9f0d9;
   padding: 60px 20px;
@@ -273,7 +273,7 @@ header {
   background-color: #2e6f2e;
 }
 
-/* Footer */
+
 footer {
   background-color: #3a8a3a;
   color: white;
@@ -281,7 +281,7 @@ footer {
   text-align: center;
 }
 
-/* Responsive */
+
 @media screen and (max-width: 768px) {
   .solutions {
     flex-direction: column;
@@ -312,3 +312,4 @@ footer {
     display: flex;
   }
 }
+
