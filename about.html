@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>About - Eco Lume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">EcoLume</a>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="about-section">
+      <h1>About EcoLume</h1>
+      <h2>Growing tomorrow's Solutions</h2>
+      <p>
+        EcoLume represents a paradigm shift in how we approach technology. By studying nature's 3.8 billion years of R&D, we've developed solutions that are not just sustainable, but regenerative.
+      </p>
+      <p>
+        Our bio-inspired systems don’t just minimize environmental impact—they actively contribute to ecological restoration while delivering unprecedented performance and efficiency.
+      </p>
+      <p>
+        From neural networks inspired by mycelial connections to energy systems that mimic photosynthesis, we're building a future where technology and nature work in perfect harmony.
+      </p>
+      <p>
+        Get organized and stay on track with <a href="https://timermo.com/">timermo</a> today. Browse thousands of stunning vector stickers at <a href="https://www.vectorsticker.com/">vectorsticker</a> to enhance your designs.
+      </p>
+
+      <h2>Innovation Through Biomimicry</h2>
+      <p>
+        Our breakthrough approach combines cutting-edge biotechnology with advanced AI to create solutions that evolve and adapt like living organisms. Each system learns, grows, and improves over time.
+      </p>
+      <p>
+        We've pioneered revolutionary techniques in molecular computing, self-healing materials, and distributed intelligence networks that mirror the resilience and efficiency found in natural ecosystems.
+      </p>
+      <p>
+        Join us in redefining what's possible when human ingenuity meets nature's wisdom. Together, we're not just building technology—we're cultivating a sustainable future for generations to come.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 EcoLume. Harmonizing technology with nature. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      menuToggle.classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>

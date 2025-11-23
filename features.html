@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Features - Eco Lume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">EcoLume</a>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html" class="active">Features</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="features-intro">
+      <h1>Bio-Tech Innovation Hub</h1>
+      <p>Discover the cutting-edge features powering our sustainable solutions.</p>
+    </section>
+
+    <section class="solutions">
+      <div class="solution">
+        <img src="pngtree-one-fresh-cartoon-green-leaf-png-image_6157397.png" alt="Smart Ecosystem" />
+        <h2>Smart Ecosystem</h2>
+        <p>AI-powered environmental monitoring optimizing resource usage and predicting ecological changes.</p>
+      </div>
+      <div class="solution">
+        <img src="Recycle001.svg" alt="Circular Systems" />
+        <h2>Circular Systems</h2>
+        <p>Zero waste technology loops ensuring every resource is reused for infinite sustainability.</p>
+      </div>
+      <div class="solution">
+        <img src="images.png" alt="Bio Energy" />
+        <h2>Bio Energy</h2>
+        <p>Nature-inspired power solutions delivering sustainable energy with maximum efficiency.</p>
+      </div>
+
+      <div class="solution">
+        <img src="blue-ocean-wave-icon-stylized-graphic-design-for-water-and-sea-concepts-in-simple-art-vector.jpg" alt="Fluid Networks" />
+        <h2>Fluid Networks</h2>
+        <p>Adaptive communication systems that flow like water, automatically routing around disruptions and optimizing connectivity in real time.</p>
+      </div>
+      <div class="solution">
+        <img src="istockphoto-890188814-612x612 (1).jpg" alt="Adaptive Architecture" />
+        <h2>Adaptive Architecture</h2>
+        <p>Self-healing infrastructure that grows and adapts like living organisms to meet changing environmental conditions.</p>
+      </div>
+      <div class="solution">
+        <img src="school-globe-clipart-terrestrial-globe-flat-vector-illustration-cartoon-style-school-supplies_695709-954.avif" alt="Global Symbiosis" />
+        <h2>Global Symbiosis</h2>
+        <p>Worldwide eco-networks connecting ecosystems for planetary health and regeneration.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 EcoLume. Harmonizing technology with nature. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      menuToggle.classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>

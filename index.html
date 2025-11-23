@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Eco Lume - Tooplate</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">EcoLume</a>
+        <ul class="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <video autoplay muted loop class="background-video">
+        <source src="videos/eco-lume-background.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="container hero-content">
+        <h1>Where Nature Meets Innovation</h1>
+        <p>Harness the power of bio-inspired technology to create sustainable solutions for tomorrow.<br />Join the green revolution that's reshaping our digital future.</p>
+        <a href="#solutions" class="btn">Explore Solutions</a>
+      </div>
+    </section>
+
+    <section id="solutions" class="solutions container">
+      <div class="solution">
+        <img src="images/leaf.png" alt="Smart Ecosystem" />
+        <h2>Smart Ecosystem</h2>
+        <p>AI-powered environmental monitoring optimizing resource usage and predicting ecological changes.</p>
+      </div>
+      <div class="solution">
+        <img src="images/recycle.svg" alt="Circular Systems" />
+        <h2>Circular Systems</h2>
+        <p>Zero waste technology loops ensuring every resource is reused for infinite sustainability.</p>
+      </div>
+      <div class="solution">
+        <img src="images/bioenergy.png" alt="Bio Energy" />
+        <h2>Bio Energy</h2>
+        <p>Nature-inspired power solutions delivering sustainable energy with maximum efficiency.</p>
+      </div>
+    </section>
+
+    <section class="statistics container">
+      <div class="stat">
+        <h3>98%</h3>
+        <p>Energy Efficiency</p>
+      </div>
+      <div class="stat">
+        <h3>2.5M+</h3>
+        <p>Carbon Tons Saved</p>
+      </div>
+      <div class="stat">
+        <h3>24/7</h3>
+        <p>Ecosystem Monitoring</p>
+      </div>
+    </section>
+
+    <section class="about container">
+      <h2>About EcoLume</h2>
+      <p>
+        EcoLume represents a paradigm shift in technology through bio-inspired systems that are sustainable and regenerative.<br />
+        We build future solutions that harmonize technology with nature.<br /><br />
+      </p>
+      <a href="#contact" class="btn">Get In Touch</a>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email address" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Tell us about your sustainability goals" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 EcoLume. Harmonizing technology with nature. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      menuToggle.classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>

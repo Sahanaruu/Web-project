@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Contact - Eco Lume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">EcoLume</a>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="contact-section">
+      <h1>Let's Grow Together</h1>
+      <form>
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" placeholder="Enter your full name" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email address" required />
+
+        <label for="company">Company</label>
+        <input type="text" id="company" placeholder="Enter your company name" />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Tell us about your sustainability goals"></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h2>Connect With Nature</h2>
+        <p><img src="download.png" height="30" alt="Email Icon" /><strong>Email:</strong> hello@EcoLume.earth</p>
+        <p><img src="download (1).png" height="30" alt="Phone Icon" /><strong>Phone:</strong> +1 (555) ECO-TECH</p>
+        <p><img src="school-globe-clipart-terrestrial-globe-flat-vector-illustration-cartoon-style-school-supplies_695709-954.avif" height="30" alt="Location Icon" /><strong>Location:</strong> Green Valley, CA 94043</p>
+        <p><img src="alarm-clock-icon-vector-graphics_292645-285.avif" height="30" alt="Support Icon" /><strong>Support:</strong> 24/7 Global Coverage</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 EcoLume. Harmonizing technology with nature. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      menuToggle.classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>
